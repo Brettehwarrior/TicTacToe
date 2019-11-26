@@ -228,12 +228,13 @@ void keyPressed() {
     board = boards.get(boards.size()-1);
   }
 
-  for (Board b : boards) {
-    println("Board" + b);
-    for (Tile[] i : b.tiles) {
-      for (Tile t : i) {
-        println(t.txt);
-      }
-    }
-  }
+  // debugging thing
+  //for (Board b : boards) {
+  //  println("Board" + b);
+  //  for (Tile[] i : b.tiles) {
+  //    for (Tile t : i) {
+  //      println(t.txt);
+  //    }
+  //  }
+  //}
 }
